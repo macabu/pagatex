@@ -1,0 +1,14 @@
+[package]
+name = "pagatex"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "pagatex"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pagat = "0.0.2"
+rustler = "0.27.0"
